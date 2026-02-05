@@ -23,7 +23,7 @@ dd {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role */
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed*/
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
@@ -39,12 +39,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-}
-
-/* Remove default padding */
-ul,
-ol {
-  padding: 0;
 }
 
 /* A elements that don't have a class get default styles */
